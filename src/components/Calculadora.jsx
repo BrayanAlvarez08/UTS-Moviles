@@ -12,7 +12,7 @@ const Calculadora = () => {
  
   useEffect(() => {
     //ESTO SE EJECUTA UNA SOLA VEZ
-    ToastAndroid.show("se cargo la aplicacion corectamente", ToastAndroid.SHORT)
+    //ToastAndroid.show("se cargo la aplicacion corectamente", ToastAndroid.SHORT)
   }, [])
 
   const Sumar = () => {

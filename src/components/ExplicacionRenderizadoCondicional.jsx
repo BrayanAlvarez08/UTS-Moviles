@@ -10,8 +10,8 @@ const ExplicacionRenderizadoCondicional = () => {
 
   useEffect(() => {
     //ESTO SE EJECUTA UNA SOLA VEZ
-    setNumero(4)
-    if(numero>9){
+    setNumero(6)
+    if(numero>5){
       console.log("Es mayor a 5")
       setEsMayor(true)
     }else{
